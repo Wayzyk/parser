@@ -25,6 +25,8 @@ gem 'rake', '~> 12.0'
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'sidekiq', '~> 4.2', '>= 4.2.10'
 
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

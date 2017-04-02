@@ -19,6 +19,9 @@
          <th>Url</th>
        </tr>
      </thead>
+
+     <%= will_paginate %>
+
      <tbody>
        <% @pages.each do |page| %>
          <tr>
@@ -28,6 +31,9 @@
          </tr>
        <% end %>
      </tbody>
+
+     <%= will_paginate %>
+
    </table>
  </div>
  </body>
