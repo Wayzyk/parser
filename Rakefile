@@ -16,9 +16,9 @@ task :parser => :environment do
   doc = Nokogiri::HTML(html)
   title = doc.css('.storylink')
   autor = doc.css('.hnuser')
-  title.zip(autor).each do |link, user|
-    page = Page.new(title: link.text, url: link['href'], autor: user&.text)
-    page.save
-  end
+    title.zip(autor).each do |link, user|
+      page = Page.new(title: link.text, url: link['href'], autor: user&.text)
+      page.save
+    end
 
 end
