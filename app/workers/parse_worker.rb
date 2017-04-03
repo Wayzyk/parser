@@ -2,8 +2,6 @@ class ParseWorker
   include Sidekiq::Worker
 
   def perform
-    require 'open-uri'
-    require 'nokogiri'
 
     uri = 'https://news.ycombinator.com/'
     html = open(uri)
