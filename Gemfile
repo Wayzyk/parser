@@ -21,6 +21,9 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'rake', '~> 12.0'
+gem 'nokogiri', '~> 1.7', '>= 1.7.1'
+gem 'open-uri-cached', '~> 0.0.5'
+
 
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'sidekiq', '~> 4.2', '>= 4.2.10'

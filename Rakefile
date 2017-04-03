@@ -7,8 +7,6 @@ Rails.application.load_tasks
 
 desc 'Starting the parser'
 task :parser => :environment do
-  require 'open-uri'
-  require 'nokogiri'
 
   uri = 'https://news.ycombinator.com/'
   html = open(uri)
